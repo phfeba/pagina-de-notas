@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>SENAI - NOTAS</title>
+  </head>
+  <body>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nome</th>
+          <th scope="col">Nota 1</th>
+          <th scope="col">Nota 2</th>
+          <th scope="col">Nota 3</th>
+          <th scope="col">Nota 4</th>
+          <th scope="col">Média</th>
+          <th scope="col">Situação</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="nome"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-um-um"
+              placeholder=""
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-dois-um"
+              placeholder=""
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-tres-um"
+              placeholder=""
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-quatro-um"
+              placeholder=""
+            />
+          </td>
+          <td><output id="media-um"></output></td>
+          <td><output id="situacao-um"></output></td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="nome"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-um-dois"
+              placeholder=""
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-dois-dois"
+              placeholder=""
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-tres-dois"
+              placeholder=""
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-quatro-dois"
+              placeholder=""
+            />
+          </td>
+          <td><output id="media-dois"></output></td>
+          <td><output id="situacao-dois"></output></td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="nome"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-um-tres"
+              placeholder=""
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-dois-tres"
+              placeholder=""
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-tres-tres"
+              placeholder=""
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              class="form-control"
+              id="nota-quatro-tres"
+              placeholder=""
+            />
+          </td>
+          <td><output id="media-tres"></output></td>
+          <td>
+            <output id="situacao-tres"></output>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button
+      type="button"
+      class="btn btn-secondary btn-lg"
+      onclick="{verificar()}"
+    >
+      Verificar
+    </button>
+    <script src="/script/script.js"></script>
+  </body>
+</html>
