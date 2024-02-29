@@ -41,6 +41,13 @@ function verificar() {
       Number(notaQuatroTres.value)) /
     4;
 
+  const mediaSala = document.getElementById('media-sala');
+  mediaSala.value =
+    (Number(mediaUm.value) +
+      Number(mediaDois.value) +
+      Number(mediaTres.value)) /
+    3;
+
   if (mediaUm.value < 45) {
     situacaoUm.innerHTML = 'REPROVADO';
     situacaoUm.style.padding = '5px';
